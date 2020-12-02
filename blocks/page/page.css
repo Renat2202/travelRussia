@@ -1,0 +1,49 @@
+.page {
+    max-width: 1280px;
+    /* width: 100vw; */
+    /* display: flex;
+    flex-direction:  column; */
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    /* max-width: 1600px; */
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    padding: 0 48px;
+    box-sizing: border-box;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Inter', Arial, sans-serif;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .page {
+      max-width: 1024px;
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .page {
+      max-width: 768px;
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .page {
+      max-width: 320px;
+      padding: 0;
+    }
+  }
+
+
+  
+
+
+ 

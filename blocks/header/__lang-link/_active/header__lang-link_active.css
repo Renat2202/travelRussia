@@ -1,0 +1,5 @@
+.header__lang-link_active {
+    /* text-decoration: underline; */
+    margin-bottom: 7px;
+    border-bottom: 1px solid #FFF;
+}
