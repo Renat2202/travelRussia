@@ -3,7 +3,7 @@
     margin: 0 0 26px;
     font-size: 18px;
     line-height: 163%;
-    grid-column-start: 2;
+    /* grid-column-start: 2; */
 }
 
 .place__paragraph:last-child {
