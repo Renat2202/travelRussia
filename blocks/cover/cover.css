@@ -1,13 +1,14 @@
 .cover {
     position: relative;
-    /* width: 100vw; */
+    width: 100%;
     max-width: 1184px;
     height: 62.5vw;
     max-height: 740px;
     margin: 92px 0 0;
-    background-image: url(../../images/cover-trains.jpg);
+    z-index: -2;
+    /* background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 
 }
 
