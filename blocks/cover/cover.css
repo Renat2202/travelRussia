@@ -5,7 +5,7 @@
     height: 62.5vw;
     max-height: 740px;
     margin: 92px 0 0;
-    z-index: -2;
+    z-index: 0;
     /* background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center; */
